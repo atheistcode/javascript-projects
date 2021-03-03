@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="https://s2.googleusercontent.com/s2/favicons?domain=arncode.me" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Picture In Picture</title>
+  </head>
+  <body>
+    <h1>PICTURE-IN-PICTURE</h1>
+    <video id="video" class="video" controls autoplay>
+      <p>Sorry, your browser doesn't support embedded videos.</p>
+    </video>
+
+    <div class="button-container">
+      <div class="button-moving-space">
+        <button id="pipButton" class="button">START</button>
+      </div>
+    </div>
+
+    <ul class="instructions">
+      <li>
+        <small>Press START to select the window or screen to start sharing it inside the video element above.</small>
+      </li>
+      <li>
+        <small
+          >Picture-in-Picture mode will automatically work on chrome browser only, on firefox you have to right click on
+          the video element and then select "Picture-in-Picture".</small
+        >
+      </li>
+      <li>
+        <small>Press STOP to stop sharing and exit Picture-in-Picture mode.</small>
+      </li>
+    </ul>
+
+    <!-- SCRIPT -->
+    <script src="script.js"></script>
+  </body>
+</html>
